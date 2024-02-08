@@ -24,7 +24,7 @@ h6 {
     font-weight: bold;
 }
 .section{
-    margin-top: 90px;
+   
     padding: 160px 20px;
 }
 
@@ -41,6 +41,15 @@ h1 {
     font-size: 18px;
     font-family: var(--default-font-family);
     
+}
+.btn-custom {
+    display: inline-block;
+    background: var(--branding-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
 }
 .myphoto{
     border-radius: 6px;
@@ -91,9 +100,7 @@ p {
         box-shadow: var(--box-shadow);
     
 }
-.botao{
-    background: red;
-}
+
 
 .secondary-link {
    
@@ -147,6 +154,9 @@ p {
     max-height: 75%;
     max-width: 75%;
    
+}
+.myphoto{
+    border-radius: 6px;
 }
 
 @media (max-width: 900px) {
