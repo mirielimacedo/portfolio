@@ -23,13 +23,27 @@ h6 {
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
-.dimension{
+.section{
     margin-top: 90px;
+    padding: 160px 20px;
 }
 
 h1 {
     font-size: 96px;
     line-height: 1.5;
+    
+}
+.myh1{
+    
+      font-weight: 900;
+}
+.about-session {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    
+}
+.myphoto{
+    border-radius: 6px;
 }
 
 h2 {
@@ -58,23 +72,26 @@ p {
 }
 
 .hero h2 {
-    font-family: var(--heading-font-family);
+    font-family: var(--default-font-family);
     font-weight: normal;
     line-height: 1.5;
     font-size: 24px;
     opacity: 0.7;
+  
 }
+
 
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
-    color: white;
+    color:white;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
     box-shadow: var(--box-shadow);
     
 }
+
 .secondary-link {
    
     border-radius: 4px;
@@ -129,7 +146,7 @@ p {
    
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     h1 {
         font-size: 44px;
         line-height: 2;
@@ -158,8 +175,7 @@ p {
     }
 
     .img-fluid {
-        display: block;
-       
-              
+        display:block;
+                    
     }
 }
