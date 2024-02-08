@@ -83,13 +83,16 @@ p {
 
 .btn-branding {
     background: var(--branding-color);
-    border-radius: 4px;
-    color:white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    box-shadow: var(--box-shadow);
+        border-radius: 4px;
+        color: white;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+        box-shadow: var(--box-shadow);
     
+}
+.botao{
+    background: red;
 }
 
 .secondary-link {
