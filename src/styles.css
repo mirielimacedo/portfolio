@@ -98,6 +98,7 @@ p {
     line-height: 27px;
     padding: 15px 30px;
     box-shadow: var(--box-shadow);
+    text-decoration: none;
 }
 
 .project-description {
