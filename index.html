@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="keywords"
+      content="front-end development, web design, responsive design, Mirieli Maria"
+    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,14 +29,61 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mirieli Maria - Front-end Developer</title>
+    <meta
+      name="description"
+      content="Mirieli Maria, Front-end Developer based in Perth. Specializing in creating responsive and user-friendly web applications."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Homepage">Mirieli Maria</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                tilte="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Matt Delac"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Matt Delac"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Mirieli Maria</h1>
-      <h2 class="mb-5">Front-end developer based in Australia</h2>
+      <h2 class="mb-5">Front-end developer, based in Australia</h2>
       <div>
         <a href="#" class="btn btn-branding"> Contact me</a>
       </div>
@@ -70,12 +122,12 @@
             </div>
           </div>
           <div class="col d-none d-lg-block">
-            <img src="weather.png" class="img-fluid" alt="" />
+            <img src="weather.png" class="img-fluid" alt="Weather App Image" />
           </div>
         </div>
         <div class="row">
           <div class="col d-none d-lg-block">
-            <img src="yoga.png" class="img-fluid" alt="" />
+            <img src="yoga.png" class="img-fluid" alt="Yoga App Image" />
           </div>
           <div class="col">
             <div class="project-description">
