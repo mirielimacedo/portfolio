@@ -69,10 +69,14 @@ h1 {
 }
 .myphoto{
     border-radius: 6px;
+   
 }
 
 h2 {
     font-size: 35px;
+}
+h4{
+    font-size: 48px;
 }
 
 p {
@@ -81,7 +85,31 @@ p {
     line-height: 30px;
    
 }
+footer{
+    margin: 60px 0;
+}
+.social-links a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
 
+}
+.social-links a:hover{
+    color: white;
+    background: var(--branding-color);
+}
+.contact-box{
+    background: var(--secondary-color);
+    padding: 40px;
+    border-radius: 10px;
+}
+.contact-box p{
+    margin: 0;
+}
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -147,17 +175,7 @@ p {
 .project-description {
     padding: 35px 60px;
 }
-.email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--branding-color);
-    font-size: 28px;
-    text-decoration: none;
-}
 
-.email-link:hover {
-    text-decoration: underline;
-}
 .image-container {
     height: 550px;
      display: flex;
@@ -171,9 +189,20 @@ p {
     max-width: 100%;
    
 }
-.myphoto{
-    border-radius: 6px;
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--branding-color);
+    font-size: 24px;
+    text-decoration: none;
 }
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+
 
 @media (max-width: 900px) {
     h1 {
@@ -183,6 +212,16 @@ p {
 
     h2 {
         font-size: 44px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .paragraf-together{
+        font-size: 13px;
+
+    }
+    .contact-btn{
+        font-size: 15px;
     }
 
     .hero {
@@ -226,4 +265,8 @@ p {
          .h2-responsive{
             font-size: 25px;
          }
+         .contact-box{
+            padding: 20px;
+         }
+         
 }
